@@ -1,1 +1,44 @@
 diff in branch
+{
+("a", 505, 332, 7, 1.5),
+("b", 436, 286, 7, 1.5),
+("c", 454, 226, 6, 1.5),
+("d", 392, 195, 6, 1.5),
+}
+  {
+     zzz   fqdn name A 192.168.0.1
+     zzz   fqdn name A 192.168.0.2
+     zzz   fqdn name AAA 192.168.0.3
+{
+  {
+"key" = "172.16.29.150"
+"key" = "172.16.29.151"
+"key" = "172.16.29.152"
+"key" = "172.16.29.153"
+}
+
+
+fqdn name AAA 192.168.0.1
+fqdn name AAA 192.168.0.2
+fqdn name A 192.168.0.3
+fqdn name A 192.168.0.1
+fqdn name A 192.168.0.2
+fqdn name A 192.168.0.3
+fqdn name A 192.168.0.1
+fqdn name A 192.168.0.2
+fqdn name A 192.168.0.3
+nome type A 192.168.88.90
+nome type A 192.168.88.90
+nome type A 192.168.88.90
+  }
+diff
+fnew List<Weapon>()
+{
+    new Weapon("a", 505, 332, 7, 1.5),
+    new Weapon("b", 436, 286, 7, 1.5),
+    new Weapon("c", 454, 226, 6, 1.5),
+    new Weapon("d", 392, 195, 6, 1.5),
+};
+
+
+ААААААFа
